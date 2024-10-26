@@ -14,6 +14,8 @@ import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Offers from './components/Offers'
+
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
       <ToastContainer />
       <Navbar/>
       <SearchBar/>
+      <Offers/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/collection' element={<Collection/>}/>
