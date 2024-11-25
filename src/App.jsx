@@ -23,7 +23,7 @@ const App = () => {
       <ToastContainer />
       <Navbar/>
       <SearchBar/>
-      <Offers/>
+      {/* <Offers/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/collection' element={<Collection/>}/>
