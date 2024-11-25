@@ -21,21 +21,6 @@ E-commerce Website
 🚀 Deployment
    The project is deployed using AWS Amplify for the front end.
 
-📂 Project Structure
-
-ecommerce-website/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   ├── index.js
-
-
 🧑‍💻 How to Run Locally
 1-->Clone the repository:
     git clone <repository-url>
@@ -51,7 +36,10 @@ ecommerce-website/
       npm start
    -->Frontend:
       npm start
-5-->Open your browser at http://localhost:3000 to view the app.
+5-->Open your browser
+   Frontend: http://localhost:3000
+   Backend (API): http://localhost:5000 (or your specified port)
+   
 🤝 Contributing
     Feel free to fork this repository and submit pull requests. Contributions, bug reports, and feature requests are welcome!
 
